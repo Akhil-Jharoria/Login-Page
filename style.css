@@ -1,0 +1,214 @@
+/**************************************Class selector**********************************************/
+
+.upper_div
+{
+    background-color: rgb(235, 228, 228);
+    width: 400px;;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading1
+{
+    margin-top: 0px;
+    padding-top:50px ;
+    padding-left: 110px;
+}
+
+.button1
+{
+    background-color: rgb(25, 203, 61);
+    border-radius: 25px;
+    margin-left: 140px;
+    margin-top: 20px; 
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-size: medium;   
+}
+
+.button2
+{
+    background-color: rgb(25, 203, 61);
+    border-radius: 25px;
+    margin-left: 140px;
+    margin-top: 50px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    font-size: medium;  
+}
+
+.login
+{
+    margin-left: 45%;
+    margin-top: 50px;
+    size: 30px;
+}
+.login_div
+{
+    background-color: rgb(235, 228, 228);
+    width: 350px;;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.textuser
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    padding-top: 5px;
+    border-bottom-width: 5px;
+
+}
+.txus
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    border-bottom-width: 100px;
+}
+.txpass
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    border-bottom-width: 100px;   
+}
+
+.textpas
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    padding-top: 5px;
+    border-bottom-width: 5px;
+}
+.submitbutton
+{
+    background-color: rgb(25, 203, 61);
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-top: 9px; 
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-size: medium;   
+}
+.button1:hover
+{
+   background-color: rgb(116, 227, 138);
+}
+
+.button2:hover
+{
+   background-color: rgb(116, 227, 138);
+}
+.submitbutton:hover
+{
+    background-color: rgb(116, 227, 138);
+    color: aliceblue;
+}
+
+.registration_div
+{
+    background-color: rgb(235, 228, 228);
+    width: 400px;;
+    height: 650px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registration_heading
+{
+     margin-top: 50px;
+    text-align: center;
+}
+
+
+.regname
+{
+  font-size:large;
+  margin-left: 10px;
+}
+.regipname
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.regemail
+{
+     
+    font-size:large;
+    margin-left: 10px;
+}
+.regipemail
+{ 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-bottom: 10px;
+
+}
+.regage
+{
+    font-size:large;
+    margin-left: 10px;
+}
+.regipage
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.regusname
+{
+     font-size:large;
+    margin-left: 10px;
+
+}
+.regipname
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.regpass
+{
+    font-size:large;
+    margin-left: 10px;
+}
+.regippass
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-bottom: 10px;  
+}
+
+/*******************************************Tag selector*********************************************/
+
+body
+{
+    background-color: rgb(25, 203, 61);
+}
+

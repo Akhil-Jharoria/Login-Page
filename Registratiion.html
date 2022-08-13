@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 class="registration_heading">Registration From</h1>
+
+
+    <div class="registration_div">
+        <form class="registration_form">
+            <label class="regname" for="Name">Name</label>
+            <br>
+            <input class="regipname" type="text" placeholder="Enter the Name">
+            <br>
+            <label class="regemail" for="Email">Email</label>
+            <br>
+            <input class="regipemail" type="email" placeholder="Enter the Email">
+            <br>
+            <label class="regage" for="Age">Age</label>
+            <br>
+            <input class="regipage" type="number" placeholder="Enter the Age">
+            <br>
+            <label class="regusname" for="UserName">UserName</label>
+            <br>
+            <input class="regipname" type="text" placeholder="Enter the UserName">
+            <br>
+            <label class="regpass" for="Password">Password</label>
+            <br>
+            <input class="regippass" type="password" placeholder="Enter the Password">
+            <br>
+            <label class="regpass" for="conformPassword">Confirm Password</label>
+            <br>
+            <input class="regippass" type="password" placeholder="Confirm the Password">
+            <br>
+            <label class="regpass" for="describtion">Which option best describes You ?</label>
+            <br>
+            <select class="regippass" name="describtion" id="describtion">
+                <option value="staff">Student</option>
+                <option value="other">Faculty</option>
+                <option value="">Account Staff</option>
+                <option value="">Other</option>
+            </select>
+            <br>
+            <label class="regpass" for="contact">Can we Contact you ?</label>
+            <br>
+            <input  type="radio" id="yes" name="contact" value="yes">
+            <label class="regpass" for="yes">Yes</label>
+            <br>
+            <input  type="radio" id="no" name="contact" value="no">
+            <label class="regpass" for="no">No</label>
+              <br>
+              <br>
+             <input class="submitbutton" type="submit" onclick="alert('Registered Successfully')">
+        </form>
+    </div>
+</body>
+</html>
